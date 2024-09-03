@@ -1,0 +1,93 @@
+/* src/styles/Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 36px;
+  color: #333;
+  margin: 0;
+}
+
+.task-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.task-list-container {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-list-header h2 {
+  font-size: 24px;
+  color: #555;
+}
+
+.task-list-header button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-list-header button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.task-form-container {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+}
+
+.task-form-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.no-tasks-message {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+  padding: 20px;
+}

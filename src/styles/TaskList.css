@@ -1,0 +1,65 @@
+/* src/styles/TaskList.css */
+
+.task-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}
+
+.task-item h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.task-item p {
+  margin: 0;
+  color: #777;
+}
+
+.task-buttons button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.task-buttons .complete-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.task-buttons .edit-btn {
+  background-color: #ffeb3b;
+  color: white;
+}
+
+.task-buttons .delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.task-buttons button:hover {
+  opacity: 0.8;
+}
